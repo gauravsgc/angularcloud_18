@@ -1,0 +1,12 @@
+h1{
+    color:red
+}
+p{
+    font-size: 2em;
+    color: yellowgreen;
+}
+.custom{
+    color:red;
+    background-color: aquamarine;
+    font-size: 3em;
+}

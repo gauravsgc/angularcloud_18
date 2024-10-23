@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    gap:2em;
+    background-color: antiquewhite;
+    justify-content: flex-end;
+}
+ul li{
+    list-style-type: none;
+    color: blue;
+    font-size: 2em;
+}
