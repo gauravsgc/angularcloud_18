@@ -9,5 +9,31 @@
 <app-sidebar/>
 <app-footer></app-footer>
 <app-footer></app-footer>
+<h2 *ngIf="number_2===100">hello i am learning angular</h2>
+<hr/>
+ <span *ngIf="number_2===100 then ifBlock else elseBlock"></span>
+ <ng-template #ifBlock>
+<h1>angular is a framework</h1>
+ </ng-template>
+ <ng-template #elseBlock>
+  <h1>angular is devloped by google and uses ts language of microsoft</h1>
+   </ng-template>
+<hr/>
+<div [ngSwitch]="day">
+  <h1 *ngSwitchCase="1">monday</h1>
+  <h1 *ngSwitchCase="2">tuesday</h1>
+  <h1 *ngSwitchCase="3">wednesday</h1>
+  <h1 *ngSwitchCase="4" style="color:green">thursday</h1>
+  <h1 *ngSwitchDefault>unknown Value</h1>
+  
+</div>
+<hr/>
+
+<ul *ngFor="let item of names">
+  <li>{{item}}</li>
+
+</ul>
+
+
 
 <!-- interpolation -->
